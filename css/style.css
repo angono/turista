@@ -1,0 +1,134 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+ul li a {color: teal;}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 350px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/*Styling Contents*/
+.card {
+  border: solid #ddd;
+}
+
+div.horizontal-scrollbar {
+  margin-top: 20px;
+  padding: 4px;
+  width: 100%;
+  overflow: auto!important;
+  white-space: nowrap!important;
+}
+
+.small-img-card {
+  width: 150px!important;
+  height: 150px!important;
+}
+
+.ribbon-styling {
+  width: 100%;
+  height: 40vh;
+  background-color: teal;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.container-styling {
+  margin-top: -30vh;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+}
+
+.form-styling {
+  border-radius: 5px!important;
+  padding: 0 6px;
+}
+
+input {
+  border-style: none!important; 
+}
+
+.text-font-styling {
+  font-size: 18px!important;
+  line-height: 2rem!important;
+  color: teal;
+  font-weight: bold!important;
+}
+
+.card-title {
+  font-size: 22px!important;
+  line-height: 2rem!important;
+  color: teal;
+  font-weight: bold!important;
+}
+
+
+/*MAP STYLE*/
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:60%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
