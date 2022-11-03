@@ -81,9 +81,8 @@ footer.page-footer {
 }
 
 div.horizontal-scrollbar {
-  margin-top: 20px;
   padding: 4px;
-  /*width: 100%;*/
+  width: 100%;
   overflow: auto!important;
   white-space: nowrap!important;
 }
